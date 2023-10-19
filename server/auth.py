@@ -11,8 +11,8 @@ ACCESS_TOKEN_SECRET_KEY: Final[str] = "7f13039fb7c2d98fbbc8440794c2b6c006e066909
 REFRESH_TOKEN_SECRET_KEY: Final[str] = "3b78bb05f22b376a2938a9483afccb5f5797b8611ede32004e735c19e6056245"
 
 ALGORITHM: Final[str] = "HS256"
-ACCESS_TOKEN_EXPIRE_MINUTES: Final[int] = 30
-REFRESH_TOKEN_EXPIRE_MINUTES: Final[int] = 60 * 24 * 7
+ACCESS_TOKEN_EXPIRE_MINUTES: Final[int] = 1
+REFRESH_TOKEN_EXPIRE_MINUTES: Final[int] = 1
 
 # password hashing
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
